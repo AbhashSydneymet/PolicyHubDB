@@ -10,9 +10,9 @@ class AzureADAuthenticator {
 
     public function __construct() {
         $this->config = [
-            'tenant_id' => 'eaa3ff05-4cb6-4895-a39f-8578abf43969', // Your Azure AD Tenant ID
-            'client_id' => '756dd2be-0c1c-46b2-800e-3d4b71d2dae9',  // Azure AD Application (client) ID
-            'client_secret' => 'ff9bdd3f-8ff5-40c2-a341-18a187874e01', // Azure AD Client Secret
+            'tenant_id' => '', // Your Azure AD Tenant ID
+            'client_id' => '',  // Azure AD Application (client) ID
+            'client_secret' => '', // Azure AD Client Secret
             'redirect_uri' => 'http://localhost/demo/auth/callback.php', // Redirect URI registered in Azure AD
             'scopes' => ['User.Read', 'Directory.Read.All']
         ];
