@@ -13,7 +13,7 @@ class AzureADAuthenticator {
             'tenant_id' => '', // Your Azure AD Tenant ID
             'client_id' => '',  // Azure AD Application (client) ID
             'client_secret' => '', // Azure AD Client Secret
-            'redirect_uri' => 'http://localhost/demo/auth/callback.php', // Redirect URI registered in Azure AD
+            'redirect_uri' => '', // Redirect URI registered in Azure AD
             'scopes' => ['User.Read', 'Directory.Read.All']
         ];
     }
